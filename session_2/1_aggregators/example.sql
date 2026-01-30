@@ -8,3 +8,4 @@
 -- 3. Exit SQLite: .exit
 
 -- Use this file to test things out, follow allow with classwork, etc.
+SELECT continent,SUM(population) FROM countries GROUP BY continent;
